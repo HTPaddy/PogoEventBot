@@ -1,0 +1,8 @@
+{
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "guildId": "YOUR_GUILD_ID",
+  "channelCategoryId": "VOICE_CATEGORY_ID",
+  "updateIntervalMinutes": 10,
+  "maxChannelNameLength": 90,
+  "timezone": "Europe/Berlin"
+}
