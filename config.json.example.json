@@ -1,8 +1,12 @@
 {
-  "token": "YOUR_DISCORD_BOT_TOKEN",
-  "guildId": "YOUR_GUILD_ID",
-  "channelCategoryId": "VOICE_CATEGORY_ID",
-  "updateIntervalMinutes": 10,
-  "maxChannelNameLength": 90,
-  "timezone": "Europe/Berlin"
+  "token": "DEIN_DISCORD_BOT_TOKEN",
+  "guildId": "DEINE_DISCORD_SERVER_ID",
+  "channelCategoryId": "KATEGORIE_ID_FÜR_EVENTKANÄLE",
+  "timezone": "Europe/Berlin",
+  "updateIntervalMinutes": 5,
+  "readonlyRoles": [
+    "ROLLE1_ID",
+    "ROLLE2_ID"
+  ],
+  "debug": true
 }
