@@ -24,7 +24,7 @@ Ein Node.js-basierter Discord-Bot, der automatisch Pokémon GO-Events (z. B. S
 ## 🧱 Voraussetzungen
 
 - Node.js 18 oder höher
-- Einen Discord-Bot mit aktivierten `GUILDS`-Intents
+- Einen Discord-Bot mit aktivierten `Admin` rechten. 
 - Rollen-ID(s) für nur-lesende Berechtigung (optional)
 
 ---
