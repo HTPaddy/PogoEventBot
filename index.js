@@ -94,7 +94,7 @@ async function updateEventChannels() {
   const items = await fetchActiveItems(config.timezone);
 
   logDebug(`Events geladen: ${items.length}`);
-  items.sort((a, b) => new Date(a.end) - new Date(b.end));
+  items.sort((a, b) => new Date(a.start) - new Date(b.start));
 
   const existingChannels = await guild.channels.fetch();
   const categoryChannels = existingChannels.filter(ch =>
@@ -149,6 +149,8 @@ async function updateEventChannels() {
           reason: 'PoGo Event gestartet',
           permissionOverwrites
         });
+        
+        await channel.setPosition(0); // 🔼 Channel ganz oben einsortieren
 
         await sleep(300);
 
